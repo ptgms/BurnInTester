@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main colours for testing -->
+    <color name="bluescreen">#0000FF</color>
+    <color name="redscreen">#FF0000</color>
+    <color name="greenscreen">#00FF00</color>
+    <color name="blackscreen">#000000</color>
+    <color name="whitescreen">#FFFFFF</color>
+
+
+    <!-- Other app related colours -->
+    <color name="transpar">#00000000</color>>
+    <color name="whitebutt">#FFFFFF</color>
+    <color name="greybutt">#9E9E9E</color>
+    <color name="colorPrimary">#007368</color>
+    <color name="colorPrimaryDark">#00403A</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

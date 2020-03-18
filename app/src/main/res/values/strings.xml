@@ -1,0 +1,47 @@
+<resources>
+    <!-- COLOURS -->
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <!-- UI ELEMENTS -->
+    <string name="app_name">BurnIn Tester</string>
+    <string name="title_activity_testeractivity">Testing Colour</string>
+    <string name="next_button">Next Colour</string>
+    <string name="start_button">Start Testing</string>
+    <string name="welcome_text">Welcome to the early burn-in tester by ptgms!</string>
+    <string name="test_finish">Finish Test</string>
+    <string name="title_activity_results">The Results are here!</string>
+    <string name="action_exit">Exit</string>
+    <string name="title_activity_tester">tester</string>
+    <string name="burned_in">Flawless</string>
+    <string name="flawless">Burned In</string>
+    <string name="notice_results">Select \"Burned In\" if your screen had marks and \"Flawless\" if it didn\'t. \nSee notes below for how to tell if burn-ins exist</string>
+    <string name="howto_results">How to tell if your display has burn-ins:</string>
+    <string name="what_to_do">The Display will light up with colours in the test, see if your display has any marks in it while displaying a colour. If it does, your screen is having a burn-in. A burn-in cannot be fixed with software methods, all you can do is replace the screen.</string>
+    <string name="dis_res">Display Resolution: </string>
+    <string name="dis_dpi">Display Density: </string>
+    <string name="dis_asp">Aspect Ratio: </string>
+    <string name="dis_type">Display Type: </string>
+    <string name="broken_text1">What to do now?</string>
+    <string name="crash_app">Crash App</string>
+    <string name="to_results">To Results</string>
+    <string name="debug_mode">Debug Mode</string>
+    <string name="toggle_debug_mode_in_release_build">Toggle Debug Mode in Release Build</string>
+    <string name="worthit">You cannot fix this issue with any App or Software mod, all you can do is replace your entire screen unit. This may not be worth it. Please look up the price of a screen for your phone and decide for yourself if it\'s an worthwhile expense.</string>
+    <string name="workingsnack">You marked your screen as working!</string>
+    <string name="brokensnack">You marked your screen as having Burn-In marks, yikes!</string>>
+    <string name="unsupported_dia1">You have your dark mode enabled. Please make sure if you\'re using Android Q or later that you\'re not forcing System-Wide dark mode.</string>
+    <string name="notice_warn">Warning!</string>
+    <string name="notice_lemmein">I understand, let me in!</string>
+    <string name="notice_lemmechange">Let me change the setting!</string>
+    <string name="placeholder">PLACEHOLDER</string>
+    <string name="warning">Warning!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="fix">Fix</string>
+    <string name="debugnotice">You\'re running debug Mode! You will have certain debug features enabled, beware of bugs!</string>
+    <string name="clear_all">Clear all</string>
+    <string name="notice_bright">Make sure your brightness is set to maximum.</string>
+    <string name="enable_debug">You enabled Debug Mode!</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BurnIn Tester</string>
+    <string name="red">Rot</string>
+    <string name="blue">Blau</string>
+    <string name="green">Grün</string>
+    <string name="white">Weiß</string>
+    <string name="black">Schwarz</string>
+    <string name="title_activity_testeractivity">Zu testende Farbe</string>
+    <string name="next_button">Nächste Farbe</string>
+    <string name="start_button">Test starten</string>
+    <string name="welcome_text">Willkommen zum Burn-In Tester von ptgms!</string>
+    <string name="test_finish">Test beenden</string>
+    <string name="title_activity_results">Das Ergebnis ist da!</string>
+    <string name="action_exit">Beenden</string>
+    <string name="title_activity_tester">tester</string>
+    <string name="burned_in">Perfekt</string>
+    <string name="flawless">Burn-Ins</string>
+    <string name="notice_results">Wähle \"Burn Ins\" wenn dein Display anderes als Farben angezeight hat und \"Perfekt\" wenn nur Farben zu sehen waren.</string>
+    <string name="howto_results">Wie man sieht ob man Burn-Ins hat:</string>
+    <string name="what_to_do">Das Display wird Farben anzeigen im Test, wenn dein Display irgendwas anderes Zeigt außer den Farben, hat dein Display ein Burn-in. Ein Burn-In kann nicht mit Software behoben werden, alles was du machen kannst ist das Display zu tauschen.</string>
+    <string name="dis_res">"Display Auflösung: "</string>
+    <string name="dis_dpi">"Display Dichte: "</string>
+    <string name="dis_asp">"Aspect Ratio: "</string>
+    <string name="dis_type">"Display Typ: "</string>
+    <string name="broken_text1">Was jetzt?</string>
+    <string name="worthit">Du kannst dieses Problem nicht mit einer App oder einer Software-Mod lösen. Alles was du machen kannst ist dein Bildschirm zu tauschen, aber dies ist es eventuell nicht wert. Informiere dich über Bildschirm-Kosten für dein Smartphone und entscheide dich selbst.</string>
+    <string name="crash_app">App absturtz</string>
+    <string name="to_results">Zu Ergebnissen</string>
+    <string name="debug_mode">Debug-Modus</string>
+    <string name="toggle_debug_mode_in_release_build">Aktiviere Debug-Modus in Release-Build</string>
+    <string name="workingsnack">Dein Display funktioniert!</string>
+    <string name="brokensnack">Dein Display funktioniert nicht, autsch.</string>
+    <string name="unsupported_dia1">Du hast deinen Dark-Mode aktiviert. Falls du Android Q oder später verwendest, stelle bitte sicher das du nicht den System-weiten Dark-Mode erzwingst.</string>
+    <string name="notice_warn">Warnung!</string>
+    <string name="notice_lemmein">Ich verstehe, lass mich rein!</string>
+    <string name="notice_lemmechange">Lass mich die Einstellung ändern!</string>
+    <string name="placeholder">PLACEHOLDER</string>
+    <string name="warning">Warnung!</string>
+    <string name="dismiss">Ignorieren</string>
+    <string name="fix">Beheben</string>
+    <string name="debugnotice">Du benutzt eine Debug-Build! Du hast ein paar Debug-Funktionen aktiviert. Halte ausschau nach bugs!</string>
+    <string name="clear_all">Alle entfernen</string>
+    <string name="notice_bright">Stelle bitte sicher das deine Bildschirm-Helligkeit auf das maximum gestellt ist.</string>
+    <string name="enable_debug">Du hast den Debug-Modus aktiviert!</string>
+</resources>
