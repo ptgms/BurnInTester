@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ArrayList<addPopUp> PopUp = new ArrayList<>();
+        dark = 0; //set dark int to 0 to say "all fine"
+        LinearLayout darkMenu = findViewById(R.id.WarningPopUps);
+        darkMenu.setVisibility(View.GONE);
         if (BuildConfig.DEBUG) {
             debug = 11; //enable debug int mode
             noticount++; //increase notification count
@@ -42,21 +45,6 @@ public class MainActivity extends AppCompatActivity {
             debugM.setVisibility(View.GONE);
             LinearLayout buttonRow = findViewById(R.id.button_row);
             buttonRow.setVisibility(View.INVISIBLE);
-        }
-        switch (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) { //check if user has dark mode enabled on android O or later
-            case Configuration.UI_MODE_NIGHT_YES: //if dark mode is on
-                dark = 1; //set dark int to 1 to say "dark mode on, could be buggy"
-                noticount++; //increase notification count
-                TextView text1 = findViewById(R.id.notiTexts);
-                TextView text2 = findViewById(R.id.typeOfNotis);
-                text1.setText(getResources().getText(R.string.unsupported_dia1));
-                text2.setText(getResources().getText(R.string.warning));
-                break;
-            case Configuration.UI_MODE_NIGHT_NO: //if dark mode is off
-                dark = 0; //set dark int to 0 to say "all fine"
-                LinearLayout darkMenu = findViewById(R.id.WarningPopUps);
-                darkMenu.setVisibility(View.GONE);
-                break;
         }
         if (BuildConfig.DEBUG) { //The clear-all button, only visible if you have are running a debug-build and both possible notifications are showing.
             if (noticount >= 2) {
